@@ -16,4 +16,11 @@
       </argument>
     </arguments>
   </type>
+  <type name="Magento\Framework\Console\CommandList">
+    <arguments>
+      <argument name="commands" xsi:type="array">
+        <item name="footesthello" xsi:type="object">Codelegacy\FooCode\Console\Command\PrintHello</item>
+      </argument>
+    </arguments>
+  </type>
 </config>
