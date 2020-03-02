@@ -23,4 +23,7 @@
       </argument>
     </arguments>
   </type>
+  <preference
+      for="Magento\Catalog\Controller\Product\View"
+      type="Codelegacy\FooCode\Rewrite\Controller\ProductView"/>
 </config>
