@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+  <template
+      id="foomodule_email_test"
+      label="Email Label" file="footest.html"
+      type="html"
+      area="frontend"
+      module="Codelegacy_FooCode"/>
+</config>
