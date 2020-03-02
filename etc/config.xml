@@ -10,5 +10,15 @@
         <order_status>pending_payment</order_status>
       </FooPayPOD>
     </payment>
+    <carriers>
+      <foocode_shipping>
+        <active>1</active>
+        <sallowspecific/>
+        <model>Codelegacy\FooCode\Model\FoocodeShipping\Carrier</model>
+        <price>5.00</price>
+        <title>FooCode Shipping</title>
+        <specificerrmsg>Not able to load shipping cost.</specificerrmsg>
+      </foocode_shipping>
+    </carriers>
   </default>
 </config>
