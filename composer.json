@@ -1,0 +1,21 @@
+{
+    "name": "codelegacy/module-foocode",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "alexander@codelegacy.com",
+            "name": "Alex Popov"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codelegacy_FooCode": ""
+        }
+    }
+}
